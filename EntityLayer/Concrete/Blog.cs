@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    internal class Blog
+    public class Blog
     {
         public int BlogID { get; set; }
         public string BlogTitle { get; set; }
