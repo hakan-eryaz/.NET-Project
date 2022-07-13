@@ -32,6 +32,11 @@ public BlogManager(IBlogDal blogDal)
             throw new NotImplementedException();
         }
 
+        public List<Blog> GetBlogListWithCategory()
+        {
+            return _blogDal.GetListWithCategory();
+        }
+
         public void RemoveBlog(Blog blog)
         {
             throw new NotImplementedException();

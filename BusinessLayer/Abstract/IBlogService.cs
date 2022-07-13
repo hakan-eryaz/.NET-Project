@@ -14,5 +14,6 @@ namespace BusinessLayer.Abstract
         void UpdateCategory(Blog blog);
         List<Blog> GetAllBlogs();
         Blog GetBlog(int id);
+        List<Blog> GetBlogListWithCategory();
     }
 }
